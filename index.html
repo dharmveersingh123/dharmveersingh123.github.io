@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>my profile</title>
+        <script>
+            function fn1()
+            {
+                var al;
+                al=document.getElementById('search').value;
+                if(al==0)
+                alert("Please enter search item and after click");
+            }
+        </script>
+    </head>
+    <style>
+        img.backimage{
+            height:100%;
+            width:100%;
+            position: relative;
+        }
+        div.header{
+            position:absolute;
+            height:20%;
+            width:100%
+        }
+        h1.heading{
+            position: absolute;
+            padding:5px;
+            color:solid black;
+            top:0%;
+            left:45%;
+            font-size: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        nav.nav{
+            position:absolute;
+            top:25%;
+            left:27%;
+            
+            
+        }
+        a.home{
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+            display: inline-block;
+        }
+        a.home:hover{
+            color:black;
+            background-color: white;
+            border:1px solid black;
+            border-radius: 5px;
+        }
+        input.search{
+            position: absolute;
+            top:40%;
+            left:40%;
+            padding:9px;
+            width:20%;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        button.but1{
+            position: absolute;
+            top:40.2%;
+            left:55.6%;
+            padding: 7px;
+            border-radius: 5px;
+            background-color:black;
+            color: white;
+        }
+        nav.social{
+            position: absolute;
+            top:60%;
+            left:40%;
+        }
+        img.social1{
+            height:10px;
+            width:10px;
+        }
+        img.social2{
+            height:10px;
+            width:10px;
+        }
+        img.social3{
+            height:10px;
+            width:10px;
+        }
+        img.social4{
+            height:10px;
+            width:10px;
+        }
+    </style>
+	<img src="C:\Users\lenovo\Desktop\my image.jpg" width="350px" height="450px" align="left" alt="my pic" border="2px pink dashed"><title>Dharmveer Singh</title></img>
+    <body bgcolor="##ffffff">
+        <h1 class="heading">Profile</h1>
+        <nav class="nav">
+            <ul>
+                <a href="file:///C:/Users/lenovo/Desktop/ap%20sir%20assignment/about%20me.html" class="home">About me</a> &nbsp;&nbsp;&nbsp;
+                <a href="file:///C:/Users/lenovo/Desktop/assignment20feb/my%20location.html" class="home">my location</a> &nbsp;&nbsp;&nbsp;
+                <a href="file:///C:/Users/lenovo/Desktop/ap%20sir%20assignment/courses.html" class="home">Courses</a> &nbsp;&nbsp;&nbsp;
+                <a href="file:///C:/Users/lenovo/Desktop/ap%20sir%20assignment/Qualification.html" class="home">Qualification</a>&nbsp;&nbsp;&nbsp;
+				<a href="file:///C:/Users/lenovo/Desktop/ap%20sir%20assignment/about%20html.html" class="home">About Html</a> &nbsp;&nbsp;&nbsp;
+            </ul>
+        </nav>
+        <input type="search" class="search" placeholder="Search" id="search"/>
+        <button class="but1" onclick="fn1()">Search</button>
+        <nav class="social">
+            <a href="https://www.google.com/search?q=instagram&oq=insta&aqs=chrome.0.35i39j69i57j0l6.2955j0j7&sourceid=chrome&ie=UTF-8">instagram&nbsp;</a>
+            <a href="https://www.google.com/search?q=github&oq=github&aqs=chrome..69i57j69i59j0l2j69i60l4.3322j0j7&sourceid=chrome&ie=UTF-8">github&nbsp;</a>
+            <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome..69i57j0l7.3576j0j7&sourceid=chrome&ie=UTF-8">facebook&nbsp;</a>
+            <a href="https://www.google.com/search?q=whatsapp+web&oq=whatsapp&aqs=chrome.0.35i39j69i57j0l5j69i60.3703j0j7&sourceid=chrome&ie=UTF-8">whatsapp web&nbsp;</a>
+        </nav>
+    </body>
+</html>
